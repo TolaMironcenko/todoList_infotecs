@@ -44,15 +44,6 @@ function createTodo(todotext, todoid, todoFlag = 0) {
 	deleteTodoBtn.id = todoid // присваивание кнопке id
 	// состояние прогресса
 
-	// <div class="dropdown">
-	//   <button onclick="myFunction()" class="dropbtn"> Выпадающий</button>
-	//   <div id="myDropdown" class="dropdown-content">
-	//     <a href="#">Главная</a>
-	//     <a href="#">О Нас</a>
-	//     <a href="#">Контакты</a>
-	//   </div>
-	// </div>
-
 	const selectProgress = document.createElement('div') // выбор состояния 
 	selectProgress.classList.add('dropdown')
 	selectProgress.value = todoFlag
